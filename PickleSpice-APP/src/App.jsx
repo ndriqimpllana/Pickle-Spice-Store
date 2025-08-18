@@ -1,4 +1,3 @@
-// src/App.jsx
 
 import { useState } from 'react';
 import ProductList from './components/ProductList';
@@ -66,8 +65,12 @@ function App() {
   return (
     <div className="container">
       <header className="header">
-        <h1><img className='the-gift' src="/picklee.png" width="40px" />  Pickle Spice Store <img className='the-gift' src="/picklee.png" width="40px" /></h1>
-        <p></p>
+        <h1>
+          <img className='the-gift' src="/picklee.png" width="40px" />  
+          Pickle Spice Store 
+          <img className='the-gift' src="/picklee.png" width="40px" />
+        </h1>
+        <p>Welcome to the best Pickle store in the nation.</p>
       </header>
 
       <div className="filter-buttons">
